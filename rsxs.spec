@@ -22,7 +22,7 @@ Really Slick Screensavers collection, by Terry Welsh
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 autoreconf -fiv
 
 %build
