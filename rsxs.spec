@@ -6,7 +6,7 @@ Source0:	http://sourceforge.net/projects/%{name}/files/%{name}/%{version}/%{name
 Patch0:		rsxs-1.0-add-missing-linkage.patch
 Patch1:		rsxs-1.0-string-format-fixes.patch
 Patch2:		rsxs-1.0-libpng16.patch
-URL:		http://rsxs.sourceforge.net/
+URL:		https://rsxs.sourceforge.net/
 BuildRequires:	pkgconfig(sm) pkgconfig(ice) pkgconfig(xmu) pkgconfig(xt)
 BuildRequires:	pkgconfig(gl) pkgconfig(glu) pkgconfig(libpng)
 BuildRequires:	pkgconfig(openal) pkgconfig(vorbis)
